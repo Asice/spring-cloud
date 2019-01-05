@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="center-config" />
+        <module name="center-hystrix" />
+        <module name="center-server" />
+        <module name="server-gateway" />
+        <module name="services-consumer" />
+        <module name="services-provider" />
+        <module name="services-user" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="server-zipkin" target="1.8" />
+      <module name="services-client" target="1.8" />
+      <module name="services-project" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="center-config" options="-parameters" />
+      <module name="center-hystrix" options="-parameters" />
+      <module name="center-server" options="-parameters" />
+      <module name="server-gateway" options="-parameters" />
+      <module name="server-zipkin" options="-parameters" />
+      <module name="services-client" options="-parameters" />
+      <module name="services-consumer" options="-parameters" />
+      <module name="services-project" options="-parameters" />
+      <module name="services-provider" options="-parameters" />
+      <module name="services-user" options="-parameters" />
+      <module name="spring-cloud" options="-parameters" />
+    </option>
+  </component>
+</project>

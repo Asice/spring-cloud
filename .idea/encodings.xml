@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/center-config" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/center-hystrix" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/center-hystrix/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/center-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/config-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-center" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-gateway/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-zipkin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/server-zipkin/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services-consumer/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services-project" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services-user" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/services-user/src/main/resources/application.yml" charset="UTF-8" />
+  </component>
+</project>

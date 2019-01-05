@@ -1,0 +1,11 @@
+.define-table {
+	border-collapse: collapse;border-spacing: 0;border-left: 1px solid #ccc;border-top: 1px solid #ccc;
+}
+
+.define-table thead, .define-table td {border-right: 1px solid #ccc;border-bottom: 1px solid #ccc;padding: 5px 15px;
+}
+
+.define-table thead td {
+	font-weight: bold;
+	background: #eee;
+}

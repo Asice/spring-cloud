@@ -1,0 +1,16 @@
+#优先于application.yml读取配置文件
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8881/eureka/
+spring:
+  cloud:
+    config:
+      discovery:
+        service-id: center-config
+        enabled: true
+      label: master
+      #1.读取https://github.com/spring-cloud-samples/config-repo/blob/master/foo-db.properties配置文件
+      #@Value("${foo.db}")可以读到
+      #name: zuul #文件名称
+      name: springcloud-bus-demo #配置中心url下的文件名称

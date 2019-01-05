@@ -1,0 +1,20 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://peer1:8881/eureka/
+server:
+  port: 8883
+spring:
+  application:
+    name: center-config
+  cloud:
+    config:
+      server:
+        git:
+          #uri: https://github.com/spring-cloud-samples/config-repo
+          uri: https://github.com/Asice/configTempale
+          repos:
+          - patterns: springcloud-bus-*
+            #uri: https://github.com/spring-cloud-samples/config-repo
+            uri: https://github.com/Asice/configTempale
+          default-label: master

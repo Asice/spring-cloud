@@ -1,0 +1,14 @@
+server:
+  port: 8882
+eureka:
+  instance:
+    hostname: peer2
+  client:
+    registerWithEureka: false
+    fetchRegistry: false
+    serviceUrl:
+      defaultZone: http://peer1:8881/eureka/
+
+spring:
+  application:
+    name: server-center
